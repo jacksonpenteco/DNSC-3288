@@ -22,5 +22,12 @@
  ### Test Data
 * **Source of test data**:  Kaggle Housing Prices Competition, https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
 * **Number of rows in test data**: 1,459
-* **State any differences in columns between training and test data**: Test data does not include Sales Price column, as Sales Price is the predicted m
+* **State any differences in columns between training and test data**: Test data does not include Sales Price column, as Sales Price is the variable our model is attempting to predict. 
   
+### Model details
+* **Columns used as inputs in the final model**: '
+* **Column(s) used as target(s) in the final model**: 'SalePrice'
+* **Type of model(s)**: Backwards Stepwise Linear Regression Model & Decision Tree 
+* **Software used to implement the model**: Python, scikit-learn
+* **Version of the modeling software**: 1.5.2 
+* **Hyperparameters or other settings of your model**: 
