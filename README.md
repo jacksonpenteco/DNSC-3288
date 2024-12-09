@@ -111,4 +111,17 @@
 * **Type of model(s)**: Backwards Stepwise Linear Regression Model & Decision Tree 
 * **Software used to implement the model**: Python, scikit-learn
 * **Version of the modeling software**: 1.5.2 
-* **Hyperparameters or other settings of your model**: 
+* **Hyperparameters or other settings of your model**:
+
+### Quantitative Analysis 
+### Ethical Considerations
+* **Potential negative impacts of using our model**:
+  * Subjective Data, i.e., Kitchen quality and Quality of basement finished area.
+  * Bias in the model would be amplified if data has any bias.
+  * Model can become overfit and perform poorly on unseen data.
+* **Potential uncertainties relating to the impacts of using our model**:
+  * The model could create a feedback loop in the housing industry.
+  * The model could be breaking Fair Housing Laws unintentionally.
+  * Making sure all the data collected was with consent and being used ethically
+
+
