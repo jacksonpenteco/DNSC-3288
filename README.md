@@ -12,7 +12,9 @@
 * **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
 
 ### Training Data
-
+* **Source of Training Data**: Kaggle Housing Prices Competition, https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
+* **How training data was divided**: 70% Training and 30% Validation
+* **Number of rows** 1,022 in Training Data, 438 in Validation
 * Data Dictionary
 
 | Name                | Modeling Role         | Measurement Level      | Description                                                                 |
@@ -104,7 +106,7 @@
 * **State any differences in columns between training and test data**: Test data does not include Sales Price column, as Sales Price is the variable our model is attempting to predict. 
   
 ### Model details
-* **Columns used as inputs in the final model**: '
+* **Columns used as inputs in the final model**: ['MSSubClass', 'LotArea', 'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea', 'BsmtFinSF1', 'TotalBsmtSF', 'GrLivArea', 'BsmtFullBath', 'FullBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd', 'Fireplaces', 'GarageCars', 'WoodDeckSF', 'ScreenPorch']
 * **Column(s) used as target(s) in the final model**: 'SalePrice'
 * **Type of model(s)**: Backwards Stepwise Linear Regression Model & Decision Tree 
 * **Software used to implement the model**: Python, scikit-learn
