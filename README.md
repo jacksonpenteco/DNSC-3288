@@ -121,12 +121,16 @@
   * R-squared for Training Set: 0.7894
   * R-squared for Validation Set: 0.8284
   * R-squared for Test Set: 0.8174
-    
+
 * **ROC**:
-  
+
+Below is the ROC curve for the Backwards Stepwise Regression Model
 ![image](https://github.com/user-attachments/assets/d6eb061e-6844-4d5b-a5b1-1122dfdb614a)
+The Area Under the Receiver Operating Characteristic Curve measures the model's ability to distinguish between classes.
 
 * **Correlation Heatmap**:
+
+Below is the Correlation Heatmap
 ![image](https://github.com/user-attachments/assets/78a60883-fd67-4246-8874-545f682fae6d)
 
 ### Ethical Considerations
