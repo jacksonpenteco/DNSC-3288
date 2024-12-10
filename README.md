@@ -7,9 +7,9 @@
 * **Model implementation code**:
   
 ### Intended Use
-* **Primary intended uses**: This model is an predictor of sales price, with an use case for determining general sales prices based on a variety of features.
+* **Primary intended uses**: This model is an predictor of sales price, with an use case for determining general sales prices based on a variety of housing features.
 * **Primary intended users**: Students in DNSC 3288 or at GWU.
-* **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
+* **Out-of-scope use cases**: Any use beyond an educational case is out-of-scope.
 
 ### Training Data
 * **Source of Training Data**: Kaggle Housing Prices Competition, https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
@@ -113,6 +113,8 @@
 * **Version of the modeling software**: 1.5.2 
 * **Hyperparameters or other settings of your model**:
 
+
+
 ### Quantitative Analysis 
 * **R2 Outputs**:
   * R-squared for Training Set: 0.7894
@@ -131,6 +133,7 @@
   * Subjective Data, i.e., Kitchen quality and Quality of basement finished area.
   * Bias in the model would be amplified if data has any bias.
   * Model can become overfit and perform poorly on unseen data.
+    
 * **Potential uncertainties relating to the impacts of using our model**:
   * The model could create a feedback loop in the housing industry.
   * The model could be breaking Fair Housing Laws unintentionally.
