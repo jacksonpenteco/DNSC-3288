@@ -114,6 +114,18 @@
 * **Hyperparameters or other settings of your model**:
 
 ### Quantitative Analysis 
+* **R2 Outputs**:
+  * R-squared for Training Set: 0.7894
+  * R-squared for Validation Set: 0.8284
+  * R-squared for Test Set: 0.8174
+    
+* **ROC**:
+  
+![image](https://github.com/user-attachments/assets/d6eb061e-6844-4d5b-a5b1-1122dfdb614a)
+
+* **Correlation Heatmap**:
+![image](https://github.com/user-attachments/assets/78a60883-fd67-4246-8874-545f682fae6d)
+
 ### Ethical Considerations
 * **Potential negative impacts of using our model**:
   * Subjective Data, i.e., Kitchen quality and Quality of basement finished area.
